@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Announcements</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css"/>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
+                <script type="text/javascript" src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
+		
+		<script type="text/javascript" src="lost_manosland_config.js"></script>
+		<script type="text/javascript" src="lost_manosland_lang.js"></script>
+		<script type="text/javascript" src="lost_manosland_libutils.js"></script>
+		<script type="text/javascript" src="lost_manosland_libimages.js"></script>
+		<script type="text/javascript" src="lost_manosland_libsqlite.js"></script>
+		<script type="text/javascript" src="lost_manosland_libmanosland.js"></script>
+		<script type="text/javascript" src="lost_manosland_05_announcements.js"></script>
+	</head>
+
+	<body >
+		<!-- LISTA -->
+		<div id="id05_page" data-role="page" data-theme="">
+
+			<div data-role="header" data-theme="">
+				<h1>
+					Lost in Mañosland!
+				</h1>
+				<div class="ui-grid-f">
+					<div class="ui-block-a">
+							<select id="id05_select_pages" name="02_select_pages" data-corners="false" data-icon="arrow-r" data-iconpos="left">
+							   <option value=-1 data-placeholder="true">Go to...</option>
+							   <option value="lost_manosland_02_gossipbox.html">Gossip Box</option>
+							   <option value="lost_manosland_03_options.html">Options</option>
+							   <option value="lost_manosland_04_newgossip.html">New gossip</option>
+							   <option value="lost_manosland_07_programm.html">Schedule</option>
+							</select>
+					</div>
+					<div class="ui-block-e">
+						<a id="id05_get_list" data-role="button" data-corners="false" data-icon="refresh" data-iconpos="left">Update list</a>
+					</div>
+				</div>
+
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="">	
+				<div id="id05_background"></div>
+				<ul id="id05_list" data-role="listview" data-theme="a" data-dividertheme="a" data-filter="true" data-filter-placeholder="Search" style="overflow:scroll; z-index:1">
+					<li id="id05_top_list" data-role="list-divider">
+					</li>
+				</ul>
+			</div><!-- /content -->
+			<div data-role="footer" data-theme="">	
+				<h4>AEGEE-Zaragoza</h4>
+			</div><!-- /content -->
+		</div><!-- /page -->
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Welcome!</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css"/>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
+                <script type="text/javascript" src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
+		
+		<script type="text/javascript" src="lost_manosland_config.js"></script>
+		<script type="text/javascript" src="lost_manosland_lang.js"></script>
+		<script type="text/javascript" src="lost_manosland_libutils.js"></script>
+		<script type="text/javascript" src="lost_manosland_libimages.js"></script>
+		<script type="text/javascript" src="lost_manosland_libsqlite.js"></script>
+		<script type="text/javascript" src="lost_manosland_libmanosland.js"></script>
+		<script type="text/javascript" src="lost_manosland_01_setup.js"></script>
+	</head>
+
+	<body >
+		<!-- LISTA -->
+		<div id="id01_page" data-role="page" data-theme="">
+
+			<div data-role="header" data-theme="">
+				<h1>
+					Lost in Mañosland!
+				</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="">	
+				<div align="center">
+		    		<img id="id01_img_prin" src="resources/images/aegee-zaragoza.png" style="max-width: 70%">
+		    	</div>
+		    	<div>
+		    		<p>¡Hi, barbarian!</p>
+		    		<p>Welcome to Mañosland and make ready yourself for a wild, wild, adventure. But first, tell us what's your name.</p>
+		    		<label for="id01_user">Username</label>
+		    		<input id="id01_user" type="text" name="01_user" size="20">
+		    		<label for="id01_local">Antenna</label>
+		    		<input id="id01_local" type="text" name="01_local" size="20">
+		    		<br>
+		    		<button id="id01_send" name="01_send" value="Let's go!"></button>
+		    	</div>
+			</div><!-- /content -->
+			
+			<div data-role="footer" data-theme="">	
+				<h4>AEGEE-Zaragoza</h4>
+			</div><!-- /content -->
+		</div><!-- /page -->
+	</body>
+</html>

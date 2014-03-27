@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.javieraguerri.BornToBeManos" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BornToBeManos</name>
+    <description>
+        A gossip-box mobile app for the best event ever!
+    </description>
+    <author email="info@javieraguerri.com" href="http://www.javieraguerri.com/web">
+        Javier Aguerri
+    </author>
+    <content src="lost_manosland_00_index.html" />
+    <access origin="*" />
+</widget>
