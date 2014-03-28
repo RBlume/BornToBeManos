@@ -2373,5 +2373,6 @@ span.ui-slider-label-b { z-index: 0; right: 0; text-indent: 1.5em;}
 	.ui-field-contain .ui-select { width: 100%; display: inline-block; }
 	.ui-hide-label .ui-select { width: 100%; } 
 
-/* Sobreescribir fieldcontain para arreglar el problema de que las cosas se montan encima */
-.ui-field-contain, fieldset.ui-field-contain { padding: .8em 0; margin: 0; border-width: 0 0 1px 0; }
+    /* Sobreescribir fieldcontain para arreglar el problema de que las cosas se montan encima */
+    .ui-field-contain, fieldset.ui-field-contain { padding: .8em 0; margin: 0; border-width: 0 0 1px 0; }
+}
