@@ -20,7 +20,7 @@ $("#id01_page").live('pageinit', function(event){
 				SQLite_insert(table0_name, table0_columns, data_values,tx);
 			}
 			function successCB(){
-				load_page_time(page05,2);
+				load_page_time(page02,2);
 			}
 			function on_error(err){
 				alert(msg_fatal_error);

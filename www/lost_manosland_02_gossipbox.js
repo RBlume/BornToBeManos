@@ -83,13 +83,13 @@ function refresh_list(){
 		for (var i=0; i<list_length; i++){
 			var html_list_content=html_list_content+'<li id="'+arr_gossips[i][0]+'" class="ui-li ui-li-static ui-body-a" style="opacity: 0.86">';
 			html_list_content=html_list_content+'<div id="'+arr_gossips[i][0]+'_title'+'" style="font-size:12pt; font-weight:bold">'+arr_gossips[i][1]+'</div>';
-			html_list_content=html_list_content+'<div id="'+arr_gossips[i][0]+'_author'+'" style="font-size:10pt; color: #01DF01">'+'by '+arr_gossips[i][3]+'</div>';
+			html_list_content=html_list_content+'<div id="'+arr_gossips[i][0]+'_author'+'" style="font-size:10pt; color: #B00000">'+'by '+arr_gossips[i][3]+'</div>';
 			html_list_content=html_list_content+'<div id="'+arr_gossips[i][0]+'_text'+'" style="font-size:10pt;">'+arr_gossips[i][2]+'</div>';
 			html_list_content=html_list_content+'</li>';
 		}
 		$('#id02_list').append(html_list_content);
 		$('#id02_list').listview('refresh');
-		set_background_list("#id02_background","fondo_gossipbox.jpg");
+		set_background_list("#id02_background","gossipBox.jpg");
 	}
 	function on_empty(){
 		$('#id02_top_list').nextAll().remove();

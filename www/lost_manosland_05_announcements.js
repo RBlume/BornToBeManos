@@ -82,7 +82,7 @@ function refresh_list(){
 		}
 		$('#id05_list').append(html_list_content);
 		$('#id05_list').listview('refresh');
-		set_background_list("#id05_background","fondo_manosland_1.jpg");
+		set_background_list("#id05_background","announcements.jpg");
 	}
 	function on_empty(){
 		$('#id05_top_list').nextAll().remove();

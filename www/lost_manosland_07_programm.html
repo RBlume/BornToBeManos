@@ -1,101 +1,116 @@
 <!DOCTYPE html> 
 <html> 
-	<head> 
-		<title>Options</title> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css"/>
-		<script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
-                <script type="text/javascript" src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
-		
-		<script type="text/javascript" src="lost_manosland_config.js"></script>
-		<script type="text/javascript" src="lost_manosland_lang.js"></script>
-		<script type="text/javascript" src="lost_manosland_libutils.js"></script>
-		<script type="text/javascript" src="lost_manosland_libimages.js"></script>
-		<script type="text/javascript" src="lost_manosland_libsqlite.js"></script>
-		<script type="text/javascript" src="lost_manosland_libmanosland.js"></script>
-		<script type="text/javascript" src="lost_manosland_07_programm.js"></script>
-	</head>
+    <head> 
+        <title>Options</title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css"/>
+        <link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.structure.min.css"/>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
 
-	<body>
+        <script type="text/javascript" src="lost_manosland_config.js"></script>
+        <script type="text/javascript" src="lost_manosland_lang.js"></script>
+        <script type="text/javascript" src="lost_manosland_libutils.js"></script>
+        <script type="text/javascript" src="lost_manosland_libimages.js"></script>
+        <script type="text/javascript" src="lost_manosland_libsqlite.js"></script>
+        <script type="text/javascript" src="lost_manosland_libmanosland.js"></script>
+        <script type="text/javascript" src="lost_manosland_07_programm.js"></script>
+    </head>
 
-		<!-- CONFIGURACION -->
-		<div id="id07_page" data-role="page" data-theme="">
+    <body>
 
-			<div data-role="header" data-theme="">
-				<h1>
-					Lost in Mañosland!
-				</h1>
-				<div class="ui-grid-f">
-					<div class="ui-block-a">
-							<select id="id07_select_pages" name="03_select_pages" style="font-size:large" data-corners="false" data-icon="arrow-r" data-iconpos="left">
-							   <option value=-1 data-placeholder="true">Go to...</option>
-							   <option value="lost_manosland_02_gossipbox.html">Gossip Box</option>
-							   <option value="lost_manosland_03_options.html">Options</option>
-							   <option value="lost_manosland_04_newgossip.html">New gossip</option>
-							   <option value="lost_manosland_05_announcements.html">Announcements</option>
-							</select>
-					</div>
-					<div class="ui-block-e">
-						<a data-role="button" data-corners="false"></a>
-					</div>
-				</div>
-			</div><!-- /header -->
+        <!-- CONFIGURACION -->
+        <div id="id07_page" data-role="page" data-theme="">
 
-			<div data-role="content" data-theme="" style="text-align: justify; font-size:12px;">
-				<!-- We will provide the programm of the event with the next update of the app. Stay tuned and see u soon! -->
-				<h4>VIERNES</h4>
-				Como algunos sabéis, nuestro alojamiento oficial en el evento es a 5 minutos de Zaragoza, en Utebo.<br>
-				<ul>
-					<li><b>Voy en coche: </b>Acudid directamente a nuestro alojamiento: Espacio Joven Utebo, C/ Las Fuentes s/n ( Parque de las Fuentes)
-					</li>
-					<li><b>Voy en bus/tren: </b>En la misma estación Delicias tenéis un montón de trenes que vienen a Utebo.
-					</li>
-				</ul>
-				<ul>
-					<li><b>21:00 Cena</b><br>Para aquellos que lleguéis por la tarde, tenemos preparada una estupenda actividad. 
-					A los que lleguéis a cenar, os queremos igual y a los que lleguéis más tarde, os guardaremos la cena, no os preocupéis.
-					</li>
-					<li><b>22:30 Ceremonia tribal</b><br>Gran apertura del evento. Aquí es donde comienza eso que tanto nos gusta decir en AEGEE de "Programa social" que es una manera genial de ocultar una fiestaca en dos palabras que suenan tan serias y responsables.
-					</li>
-					¿Disfraces? ¿Traje y corbata? NO WAY. Vístete como quieras, solo te pedimos colorido, estamos en medio de la selva y en primavera así que déjate de colores blancos, negros y tonos invernales, ¡¡¡Queremos ver color por todas partes!!! (AEGEE-Zaragoza no se responsabiliza de lo que ocurra a partir de esa hora)
-				</ul>
-				<h4>SÁBADO</h4>
-				<ul>
-					<li><b>10:30 Desayuno</b><br>Recargad fuerzas porque os van a venir muy bien para el día que os espera.
-					</li>
-					<li><b>11:30 Gymkana</b>
-					</li>
-					<li><b>13:30 Barbacoa</b><br>Acompañada de sus cervecitas y sangría.
-					</li>
-					<li><b>17:00 Juegos guarros</b><br>Ah no, que los llamamos THE DIRTY GAMES porque queda mejor. Pues eso, preparaos.
-					</li>
-					<li><b>19:00 Ducha time + relax</b><br>Lo vais a necesitar. Aquí ya si os ducháis juntos o separados, es cosa vuestra.
-					</li>
-					<li><b>21:30 Cena</b>
-					</li>
-					<li><b>22:30 "Programa social"</b><br>Suena hasta aburrido ¿No? Llamémoslo FIESTACA entonces.
-					Diréis: - Ahora es cuando nos meten algún disfraz. Pues no, aquí tampoco, así que poneos lo que queráis que vais a desfasar igual.
-					</li>
-				</ul>
-				<h4>DOMINGO</h4>
-				<ul>
-					<li><b>10:00 Desayuno</b>
-					</li>
-					<li><b>11:00 City tour por Zaragoza</b>
-					</li>
-					<li><b>13:30 Comida</b>
-					</li>
-					A partir de aquí, podéis abandonarnos cuando queráis. Nosotros estaremos encantados de quedarnos de cerveceo con vosotros si os apetece y si aun después de todo el evento, no nos odiáis.
-				</ul>
-			</div><!-- /content -->
+            <div data-role="header" data-theme="">
+                <h1>Maños 3</h1>
+                <div class="ui-grid-f">
+                    <div class="ui-block-a">
+                        <select id="id07_select_pages" name="03_select_pages" style="font-size:large" data-corners="false" data-icon="arrow-r" data-iconpos="left">
+                            <option value=-1 data-placeholder="true">Go to...</option>
+                            <option value="lost_manosland_02_gossipbox.html">Gossip Box</option>
+                            <option value="lost_manosland_03_options.html">Options</option>
+                            <option value="lost_manosland_04_newgossip.html">New gossip</option>
+                        </select>
+                    </div>
+                    <div class="ui-block-e">
+                        <a data-role="button" data-corners="false"></a>
+                    </div>
+                </div>
+            </div><!-- /header -->
 
-			<div data-role="footer" data-theme="">
-				<h4>AEGEE-Zaragoza</h4>
-			</div><!-- /footer -->
+            <div data-role="content" data-theme="" style="text-align: justify; font-size:12px;">
+                <!-- We will provide the programm of the event with the next update of the app. Stay tuned and see u soon! -->
+                <h3>INFORMACIÓN GENERAL</h3>
+                <h4>ALOJAMIENTO</h4>
+                <ul>
+                    <li>Centro cívico La Jota (plaza La albada 3, puerta de atrás)</li>
+                    <li><a href="http://www.zaragoza.es/ciudad/centros/plano_Centro?id=4065">Cómo llegar en coche</a></li>
+                    <li><a href="https://www.google.com/maps?t=m&sll=41.6652773,-0.9049499&sspn=0.0492447,0.0878945&geocode=FTmsewIdyhby_ylnKCOpNWtZDTGJ_YY-O5hT8w;FXGuewId29ny_ylRgHwhZxRZDTFqF5wswj4HyA&saddr=Estacion+Central+Autobuses+de+Zaragoza,+Av+de+Navarra,+80,+50011+Zaragoza,+Espa%C3%B1a&daddr=Plaza+Albada,+3,+50014+Zaragoza,+Espa%C3%B1a&dirflg=r&output=classic&dg=ntvb">Cómo llegar en bus: coger el bus Ci1 Estación-CCLaJota</a></li>
+                </ul>
 
-		</div><!-- /page -->
+                <h4>QUÉ LLEVAR</h4>
+                <ul>
+                    <li>Comida y bebida para la European Night</li>
+                    <li>Esterilla y colchón o saco de dormir</li>
+                    <li>Ropa que no os importe manchar</li>
+                </ul>
 
-	</body>
+                <h4>TELÉFONOS ORGANIZERS</h4>
+                <ul>
+                    <li>Ava: 608972365</li>
+                    <li>Carlota: 628643596</li>
+                    <li>Juan: 622241718</li>
+                    <li>Sara Roche: 653987428</li>
+                    <li>Sara Urdániz: 692367507</li>
+                </ul>
+
+                <h3>PROGRAMA</h3>
+                <h4>VIERNES</h4>
+
+                <ul>
+                    <li>
+                        18:00 Pistoletazo de salida
+                    </li>
+                    <li>
+                        20.00 Presentación y European Night. Manolo La Nuit
+                    </li>
+
+                </ul>
+                <h4>SÁBADO</h4>
+                <ul>
+                    <li>8:30 Desayuno
+                    </li>
+                    <li>9:45 City tour y bús turístico
+                    </li>
+                    <li>14:00 Comida Macanaz
+                    </li>
+                    <li>15:30 Actividades de camino al CC
+                    </li>
+                    <li>18.00 Llegada al CC, duchas, etc
+                    </li>
+                    <li>20:00 Cena y reto Ambar
+                    </li>
+                    <li>22:45 El Plata</li>
+                </ul>
+                <h4>DOMINGO</h4>
+                <ul>
+                    <li>9:00 Desayuno
+                    </li>
+                    <li>10:00 Europe on Track: Youth Mobility (charla en el CC)
+                    </li>
+                    <li>14:00 Comida</li>
+                    <li>15.00 Despedida y cierre</li>
+                </ul>
+            </div><!-- /content -->
+
+            <div data-role="footer" data-theme="">
+                <h4>AEGEE-Zaragoza</h4>
+            </div><!-- /footer -->
+
+        </div><!-- /page -->
+
+    </body>
 </html>
